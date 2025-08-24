@@ -1,0 +1,63 @@
+{
+    // "extensions.supportNodeGlobalNavigator": true,
+    "workbench.keybindings.rstudioKeybindings": true,
+    // Fonts & Editor
+    "editor.fontFamily": "'JetBrains Mono Light'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 1.2,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [
+        80
+    ],
+    "editor.mouseWheelScrollSensitivity": 2,
+    // Terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "block",
+    // Theme
+    "workbench.colorTheme": "Panda Syntax",
+    // TODO Highlight
+    "todohighlight.keywords": [
+        {
+            "text": "!NB:",
+            "color": "black",
+            "backgroundColor": "#a28ae5",
+            "overviewRulerColor": "#a28ae5",
+            "isWholeLine": false
+        }
+    ],
+    // Other
+    "files.associations": {
+        "renv.lock": "json"
+    },
+    "air.logLevel": "debug",
+    "git.confirmSync": false,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "git.enableSmartCommit": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    // Formatter
+    "editor.formatOnSave": true,
+    "[r]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Posit.air-vscode",
+        "editor.formatOnType": true,
+    },
+    "python.defaultInterpreterPath": "python3",
+    "git.autofetch": true,
+    "githubPullRequests.pullBranch": "never",
+    "pastum.defaultConvention": "snake_case",
+    "interpreters.startupBehavior": "manual",
+    "console.fontSize": 16,
+    "console.fontFamily": "'JetBrains Mono Light'",
+    "console.fontLigatures": true,
+    "terminal.integrated.fontFamily": "'JetBrains Mono Light'",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "workbench.startupEditor": "none",
+    "update.positron.channel": "dailies",
+}

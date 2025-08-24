@@ -1,8 +1,8 @@
 # .dotfiles
-My configuration files. Inspired by [**@wurli**](https://github.com/wurli/dotfiles). This repository is mainly for my future self, in case I forget. Regardless of the operating system, I store them in the home directory (`$HOME\.dotfiles` or `~/.dotfiles`).
+My configuration files. Inspired by [**@wurli**](https://github.com/wurli/dotfiles)'s. This repo is mainly for my future self, in case I forget. Regardless of the OS, I store them in the `$HOME` directory (`$HOME/.dotfiles/`).
 
 ## Windows
-To start or add a new config, copy the original file into the `.dotfiles` directory. Then create a symbolic link to it in `$HOME`. On new machines, simply `git clone` this repository and create the symbolic links.
+To start or add a new config, copy the original file into the `.dotfiles` directory. Then create a symbolic link to it in `$HOME`. On new machines, simply `git clone` this repository.
 
 ```powershell
 # Navigate to your `.dotfiles` directory
@@ -24,4 +24,4 @@ symlink .gitconfig $HOME\.gitconfig
 ```
 
 ## Linux
-TBA
+`TBA`

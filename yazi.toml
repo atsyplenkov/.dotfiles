@@ -1,0 +1,9 @@
+[mgr]
+sort_by     = "alphabetical"
+show_hidden = true
+
+[opener]
+edit = [
+	{ run = 'nano "$@"', block = true, for = "unix" },
+	{ run = "edit %*",  block = true, for = "windows" },
+]

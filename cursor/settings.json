@@ -1,0 +1,33 @@
+{
+    "editor.fontFamily": "'JetBrains Mono Light'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.renderWhitespace": "all",
+    // Editor
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 1.2,
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [
+        80
+    ],
+    "[r]": {
+        "editor.formatOnSave": true
+    },
+    // Cursor IDE Fix
+    "window.commandCenter": true,
+    "workbench.activityBar.orientation": "vertical",
+    // Theme
+    "workbench.colorTheme": "Default Dark+",
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "extensions.ignoreRecommendations": true,
+    "r.alwaysUseActiveTerminal": true,
+    "r.libPaths": [
+        "C:/Users/TsyplenkovA/AppData/Local/R/win-library/4.5"
+    ],
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+}

@@ -1,7 +1,7 @@
-# User settings.json location
+# User `settings.json` and `keybindings.json` location
 Depending on your platform, the user settings and keybindings files are located here:
 
-* Windows `%APPDATA%\Positron\User\settings.json`
+* Windows `$env:APPDATA\Positron\User\settings.json`
 
 * Linux `$HOME/.config/Positron/User/settings.json`
 
@@ -12,8 +12,8 @@ In powershell, to navigate to the `%APPDATA%`, use env variable `$env:APPDATA`. 
 
 ```powershell
 # keybindings
-symlink $HOME\keybindings.json $env:APPDATA\Positron\User\keybindings.json
+symlink $HOME\.dotfiles\positron\keybindings.json $env:APPDATA\Positron\User\keybindings.json
 
 # settings
-symlink $HOME\settings.json $env:APPDATA\Positron\User\settings.json
+symlink $HOME\.dotfiles\positron\settings.json $env:APPDATA\Positron\User\settings.json
 ```

@@ -1,0 +1,72 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "composerMode.background"
+    },
+    // RStudio inspired keybindings
+    // See more https://github.com/posit-dev/positron/blob/c3ee3a3a9d01ff2046879b5481b9b4ee5baa9dec/extensions/positron-r/package.json
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.duplicateSelection"
+    },  
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },  
+    // R Language specific
+    // Adapted after https://rolkra.github.io/R-VSCode/
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == r",
+        "args": {
+        "snippet": " |> "
+        }
+    },
+    {
+        "key": "alt+-",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == r",
+        "args": {
+        "snippet": " <- "
+        }
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+        "text": " |> "
+        }
+    },
+    {
+        "key": "alt+-",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+        "text": " <- "
+        }
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+        "snippet": "# section -----------------------------------------------------------\n"
+        }
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+        "snippet": "```{r}\n$0\n```"
+        }
+    }
+]

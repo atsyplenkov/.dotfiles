@@ -15,13 +15,17 @@
     "[r]": {
         "editor.formatOnSave": true
     },
+    // Terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "block",   
     // Cursor IDE Fix
     "window.commandCenter": true,
     "workbench.activityBar.orientation": "vertical",
     // Theme
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Panda Syntax",
     "debug.console.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
     "extensions.ignoreRecommendations": true,
     "r.alwaysUseActiveTerminal": true,
     "r.libPaths": [

@@ -4,9 +4,8 @@
 depends = []
 
 [default.files]
-"README.md" = ""
-cursor = ""
-"yazi.toml" = ""
+# Yazi file manager
+"yazi.toml" = "~/.config/yazi/yazi.toml"
 
 # Cursor
 "cursor/settings.json" = "~/.config/Cursor/User/settings.json"
@@ -16,9 +15,10 @@ cursor = ""
 "positron/settings.json" = "~/.config/Positron/User/settings.json"
 "positron/keybindings.json" = "~/.config/Positron/User/keybindings.json"
 
+# Arkenfox (Firefox hardenning)
+"firefox/user-overrides.js" = "~/.mozilla/firefox/naa0ia8y.default-release/user-overrides.js"
 
 [default.variables]
 
 [settings]
 default_target_type = "automatic"
-

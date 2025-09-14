@@ -3,6 +3,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 17,
     "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
     // Editor
     "editor.minimap.enabled": false,
     "editor.lineHeight": 1.2,
@@ -27,11 +28,15 @@
     "workbench.colorTheme": "Pop Dark",
     "debug.console.fontSize": 16,
     "extensions.ignoreRecommendations": true,
+    // R
     "r.alwaysUseActiveTerminal": false,
     "r.libPaths": [
         "C:/Users/TsyplenkovA/AppData/Local/R/win-library/4.5",
         "/home/ats/R/x86_64-pc-linux-gnu-library/4.5"
     ],
+    "r.plot.useHttpgd": true,
+    "r.removeLeadingComments": true,
+    // Git
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
@@ -48,5 +53,4 @@
     "cursor.cpp.disabledLanguages": [
         "plaintext"
     ],
-    "editor.tabSize": 2,
 }

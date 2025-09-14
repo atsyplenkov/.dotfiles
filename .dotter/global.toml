@@ -1,0 +1,24 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+"README.md" = ""
+cursor = ""
+"yazi.toml" = ""
+
+# Cursor
+"cursor/settings.json" = "~/.config/Cursor/User/settings.json"
+"cursor/keybindings.json" = "~/.config/Cursor/User/keybindings.json"
+
+# Positron
+"positron/settings.json" = "~/.config/Positron/User/settings.json"
+"positron/keybindings.json" = "~/.config/Positron/User/keybindings.json"
+
+
+[default.variables]
+
+[settings]
+default_target_type = "automatic"
+

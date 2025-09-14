@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'JetBrains Mono Light'",
+    "editor.fontFamily": "JetBrainsMonoNL Nerd Font Mono, 'JetBrains Mono Light'",
     "editor.fontLigatures": true,
     "editor.fontSize": 17,
     "editor.renderWhitespace": "all",
@@ -19,12 +19,12 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorStyleInactive": "block",   
+    "terminal.integrated.cursorStyleInactive": "block",
     // Cursor IDE Fix
     "window.commandCenter": true,
     "workbench.activityBar.orientation": "vertical",
     // Theme
-    "workbench.colorTheme": "Panda Syntax",
+    "workbench.colorTheme": "Pop Dark",
     "debug.console.fontSize": 16,
     "extensions.ignoreRecommendations": true,
     "r.alwaysUseActiveTerminal": true,
@@ -34,4 +34,17 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
+    // TODO Highlight
+    "todohighlight.keywords": [
+        {
+            "text": "!NB:",
+            "color": "black",
+            "backgroundColor": "#a28ae5",
+            "overviewRulerColor": "#a28ae5",
+            "isWholeLine": false
+        }
+    ],
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
 }

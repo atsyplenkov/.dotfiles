@@ -5,12 +5,6 @@
         "command": "composerMode.agent"
     },
     {
-        "key": "ctrl+e",
-        "command": "composerMode.background"
-    },
-    // RStudio inspired keybindings
-    // See more https://github.com/posit-dev/positron/blob/c3ee3a3a9d01ff2046879b5481b9b4ee5baa9dec/extensions/positron-r/package.json
-    {
         "key": "ctrl+shift+d",
         "command": "editor.action.duplicateSelection"
     },  

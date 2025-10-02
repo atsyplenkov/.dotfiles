@@ -20,7 +20,7 @@ user_pref("extensions.formautofill.reauth.enabled", false);
 
 // Strengthen anti-fingerprinting
 user_pref("privacy.resistFingerprinting", true);
-user_pref("privacy.resistFingerprinting.letterboxing", true);
+user_pref("privacy.resistFingerprinting.letterboxing", false);
 user_pref("privacy.spoof_english", 2);
 user_pref("privacy.resistFingerprinting.reduceTimerPrecision.microseconds", 1000);
 

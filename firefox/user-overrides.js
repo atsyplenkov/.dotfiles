@@ -1,10 +1,8 @@
 // Disable WebRTC leaks
 user_pref("media.peerconnection.enabled", false);
 
-// Force DoH via Mullvad
-user_pref("network.trr.mode", 3);
-user_pref("network.trr.uri", "https://base.dns.mullvad.net/dns-query");
-user_pref("network.trr.custom_uri", "https://base.dns.mullvad.net/dns-query");
+// Keep Default DNS settings
+user_pref("network.trr.mode", 1);
 
 // Keep new tab page shortcuts
 user_pref("browser.startup.page", 1);

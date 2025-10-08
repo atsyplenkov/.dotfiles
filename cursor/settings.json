@@ -50,7 +50,4 @@
             "isWholeLine": false
         }
     ],
-    "cursor.cpp.disabledLanguages": [
-        "plaintext"
-    ],
 }

@@ -50,4 +50,5 @@
             "isWholeLine": false
         }
     ],
+    "quarto.render.previewType": "external",
 }

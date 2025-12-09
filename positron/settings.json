@@ -59,5 +59,4 @@
     "terminal.integrated.fontLigatures.enabled": true,
     "githubPullRequests.createOnPublishBranch": "never",
     "workbench.startupEditor": "none",
-    "update.positron.channel": "dailies",
 }

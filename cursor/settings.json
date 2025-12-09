@@ -21,6 +21,9 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorStyleInactive": "block",
+    "terminal.integrated.env.linux": {
+        "HOME": "/home/ats"
+    },
     // Cursor IDE Fix
     "window.commandCenter": true,
     "workbench.activityBar.orientation": "vertical",
@@ -30,12 +33,20 @@
     "extensions.ignoreRecommendations": true,
     // R
     "r.alwaysUseActiveTerminal": false,
+    "r.rpath.linux": "/usr/local/bin/R",
+    "r.rterm.linux": "/usr/local/bin/R",
     "r.libPaths": [
         "C:/Users/TsyplenkovA/AppData/Local/R/win-library/4.5",
         "/home/ats/R/x86_64-pc-linux-gnu-library/4.5"
     ],
     "r.plot.useHttpgd": true,
     "r.removeLeadingComments": true,
+    "r.sessionWatcher": true,
+    "r.lsp.enabled": true,
+    "r.lsp.args": [
+        "--no-save",
+        "--no-restore"
+    ],
     // Git
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -51,4 +62,5 @@
         }
     ],
     "quarto.render.previewType": "external",
+    "update.mode": "none",
 }

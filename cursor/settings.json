@@ -63,4 +63,7 @@
     ],
     "quarto.render.previewType": "external",
     "update.mode": "none",
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
 }

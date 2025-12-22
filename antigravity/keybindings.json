@@ -1,0 +1,81 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.duplicateSelection"
+    },  
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_2",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },  
+    // R Language specific
+    // Adapted after https://rolkra.github.io/R-VSCode/
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == r",
+        "args": {
+        "snippet": " |> "
+        }
+    },
+    {
+        "key": "alt+-",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == r",
+        "args": {
+        "snippet": " <- "
+        }
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+        "text": " |> "
+        }
+    },
+    {
+        "key": "alt+-",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+        "text": " <- "
+        }
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+        "snippet": "# section -----------------------------------------------------------\n"
+        }
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+        "snippet": "```{r}\n$0\n```"
+        }
+    }
+]

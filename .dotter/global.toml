@@ -11,6 +11,10 @@ depends = []
 "cursor/settings.json" = "~/.config/Cursor/User/settings.json"
 "cursor/keybindings.json" = "~/.config/Cursor/User/keybindings.json"
 
+# Antigravity
+"antigravity/settings.json" = "~/.config/Antigravity/User/settings.json"
+"antigravity/keybindings.json" = "~/.config/Antigravity/User/keybindings.json"
+
 # Positron
 "positron/settings.json" = "~/.config/Positron/User/settings.json"
 "positron/keybindings.json" = "~/.config/Positron/User/keybindings.json"

@@ -60,7 +60,11 @@
     ],
     "quarto.render.previewType": "external",
     "update.mode": "none",
-     "remote.SSH.remotePlatform": {
+    "remote.SSH.remotePlatform": {
         "hydrowiki": "linux"
     },
+    "agCockpit.displayMode": "webview",
+    "agCockpit.groupingEnabled": false,
+    "agCockpit.dataMasked": false,
+    "agCockpit.profileHidden": false,
 }

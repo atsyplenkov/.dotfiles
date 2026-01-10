@@ -46,3 +46,6 @@ user_pref("privacy.clearHistory.browsingHistoryAndDownloads", true);
 
 // Don't close browser on the last tab closure
 user_pref("browser.tabs.closeWindowWithLastTab", false);
+
+// Force light mode
+user_pref("layout.css.prefers-color-scheme.content-override", 1);

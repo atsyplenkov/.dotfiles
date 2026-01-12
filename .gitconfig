@@ -1,0 +1,7 @@
+[user]
+	name = atsyplenkov
+	email = sharp.couch9400@fastmail.com
+[credential "https://codeberg.org"]
+	provider = generic
+[credential]
+	helper = manager-core

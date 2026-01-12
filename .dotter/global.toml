@@ -4,6 +4,9 @@
 depends = []
 
 [default.files]
+# Git
+".gitconfig" = "~/.gitconfig"
+
 # Yazi file manager
 "yazi.toml" = "~/.config/yazi/yazi.toml"
 
@@ -20,7 +23,7 @@ depends = []
 "positron/keybindings.json" = "~/.config/Positron/User/keybindings.json"
 
 # Arkenfox (Firefox hardenning)
-"firefox/user-overrides.js" = "~/.mozilla/firefox/naa0ia8y.default-release/user-overrides.js"
+"firefox/user-overrides.js" = "~/.mozilla/firefox/023rvj2f.default-release/user-overrides.js"
 
 [default.variables]
 

@@ -4,8 +4,8 @@
 depends = []
 
 [default.files]
-# Git
-".gitconfig" = "~/.gitconfig"
+# Ghostty
+"ghostty.conf" = "~/.config/ghostty/config"
 
 # Yazi file manager
 "yazi.toml" = "~/.config/yazi/yazi.toml"

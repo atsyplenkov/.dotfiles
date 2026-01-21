@@ -24,8 +24,6 @@
     "terminal.integrated.env.linux": {
         "HOME": "/home/ats"
     },
-    // Theme
-    "workbench.colorTheme": "Pop Dark",
     "debug.console.fontSize": 16,
     "extensions.ignoreRecommendations": true,
     // R
@@ -63,8 +61,10 @@
     "remote.SSH.remotePlatform": {
         "hydrowiki": "linux"
     },
-    "agCockpit.displayMode": "webview",
+    "agCockpit.displayMode": "quickpick",
     "agCockpit.groupingEnabled": false,
     "agCockpit.dataMasked": false,
     "agCockpit.profileHidden": false,
+    "python.languageServer": "Default",
+    "workbench.colorTheme": "Pop Dark",
 }

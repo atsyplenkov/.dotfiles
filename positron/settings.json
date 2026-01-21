@@ -59,4 +59,6 @@
     "terminal.integrated.fontLigatures.enabled": true,
     "githubPullRequests.createOnPublishBranch": "never",
     "workbench.startupEditor": "none",
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.useTerminal": true,
 }

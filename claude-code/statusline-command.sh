@@ -1,7 +1,10 @@
 #!/bin/bash
 # Make sure this file is executable: chmod +x ~/.claude/statusline-command.sh
 
-# Claude Code statusline script
+# Modified after
+# https://github.com/jumski/dotfiles/blob/e3c705833f868c47c7d02ed38728ecbb61f509a6/claude/statusline.sh
+
+# Claude Code statusline script adapted to work with Z.AI models (GLM-4.7)
 # Reads JSON input from stdin and outputs a formatted status line to stdout
 #
 # Add to your ~/.claude/settings.json
@@ -34,7 +37,7 @@ readonly RED='\033[91m'       # Bright red for conflicts/errors
 readonly PURPLE='\033[95m'    # Bright purple for directory
 readonly CYAN='\033[96m'      # Bright cyan for python venv
 readonly WHITE='\033[97m'     # Bright white for time
-readonly GRAY='\033[37m' # Gray for separators
+readonly GRAY='\033[37m'      # Gray for separators
 readonly RESET='\033[0m'      # Reset colors
 readonly BOLD='\033[1m'       # Bold text
 

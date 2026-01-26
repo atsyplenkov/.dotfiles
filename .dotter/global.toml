@@ -29,6 +29,7 @@ depends = []
 "claude-code/CLAUDE.md" = "~/.config/claude-code/CLAUDE.md"
 "claude-code/commands/" = "~/.config/claude-code/commands/"
 "claude-code/statusline-command.sh" = "~/.config/claude-code/statusline-command.sh"
+"claude-code/skills/" = "~/.config/claude-code/skills/"
 
 [default.variables]
 

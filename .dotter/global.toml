@@ -26,10 +26,10 @@ depends = []
 "firefox/user-overrides.js" = "~/.mozilla/firefox/023rvj2f.default-release/user-overrides.js"
 
 # Claude Code
-"claude-code/CLAUDE.md" = "~/.config/claude-code/CLAUDE.md"
-"claude-code/commands/" = "~/.config/claude-code/commands/"
-"claude-code/statusline-command.sh" = "~/.config/claude-code/statusline-command.sh"
-"claude-code/skills/" = "~/.config/claude-code/skills/"
+"claude-code/CLAUDE.md" = "~/.claude/CLAUDE.md"
+"claude-code/commands/" = "~/.claude/commands/"
+"claude-code/statusline-command.sh" = "~/.claude/statusline-command.sh"
+"claude-code/skills/" = "~/.claude/skills/"
 
 [default.variables]
 

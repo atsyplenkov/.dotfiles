@@ -25,6 +25,11 @@ depends = []
 # Arkenfox (Firefox hardenning)
 "firefox/user-overrides.js" = "~/.mozilla/firefox/023rvj2f.default-release/user-overrides.js"
 
+# Claude Code
+"claude-code/CLAUDE.md" = "~/.config/claude-code/CLAUDE.md"
+"claude-code/commands/" = "~/.config/claude-code/commands/"
+"claude-code/statusline-command.sh" = "~/.config/claude-code/statusline-command.sh"
+
 [default.variables]
 
 [settings]

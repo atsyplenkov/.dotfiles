@@ -72,7 +72,6 @@ File contents:
 
 Next steps:
 - Restart Claude to apply the setting
-- Verify with: claude config get env CLAUDE_CODE_TASK_LIST_ID
 ```
 
 ## Common Mistakes

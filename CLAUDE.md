@@ -32,6 +32,7 @@ dotter deploy -fv
 | `positron/` | Positron editor settings |
 | `antigravity/` | Antigravity editor settings |
 | `firefox/` | Arkenfox user overrides |
+| `fish/` | Fish shell configuration, functions, and completions |
 | `claude-code/` | Claude Code config, commands, and skills |
 
 ## Deployment

@@ -25,6 +25,11 @@ depends = []
 # Arkenfox (Firefox hardenning)
 "firefox/user-overrides.js" = "~/.mozilla/firefox/023rvj2f.default-release/user-overrides.js"
 
+# Fish shell
+"fish/config.fish" = "~/.config/fish/config.fish"
+"fish/functions/" = "~/.config/fish/functions/"
+"fish/completions/" = "~/.config/fish/completions/"
+
 # Claude Code
 "claude-code/CLAUDE.md" = "~/.claude/CLAUDE.md"
 "claude-code/commands/" = "~/.claude/commands/"
@@ -34,4 +39,4 @@ depends = []
 [default.variables]
 
 [settings]
-default_target_type = "automatic"
+default_target_type = "symbolic"

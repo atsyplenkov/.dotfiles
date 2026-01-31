@@ -28,6 +28,7 @@ dotter deploy -fv
 | `ghostty.conf` | Terminal emulator config |
 | `yazi.toml` | File manager config |
 | `claude-code/` | Claude Code AI assistant config (CLAUDE.md, commands, statusline) |
+| `opencode/` | OpenCode config (oh-my-opencode.json) |
 | `cursor/` | Cursor editor settings |
 | `positron/` | Positron editor settings |
 | `antigravity/` | Antigravity editor settings |

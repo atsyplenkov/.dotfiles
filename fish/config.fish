@@ -15,3 +15,6 @@ else
 end
 # <<< conda initialize <<<
 
+# Aliases
+alias cz='claude --settings ~/.claude/settings-zai.json $argv'
+alias cz!='claude --settings ~/.claude/settings-zai.json --permission-mode bypassPermissions $argv'

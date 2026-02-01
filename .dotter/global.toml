@@ -33,7 +33,7 @@ depends = []
 # Claude Code
 "claude-code/CLAUDE.md" = "~/.claude/CLAUDE.md"
 "claude-code/commands/" = "~/.claude/commands/"
-"claude-code/statusline-command.sh" = "~/.claude/statusline-command.sh"
+"claude-code/statusline-zai.sh" = "~/.claude/statusline-zai.sh"
 "claude-code/skills/" = "~/.claude/skills/"
 
 # OpenCode

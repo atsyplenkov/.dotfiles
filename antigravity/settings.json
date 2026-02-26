@@ -27,9 +27,9 @@
     "debug.console.fontSize": 16,
     "extensions.ignoreRecommendations": true,
     // R
-    "r.alwaysUseActiveTerminal": false,
+    "r.alwaysUseActiveTerminal": true,
     "r.rpath.linux": "/usr/local/bin/R",
-    "r.rterm.linux": "/usr/local/bin/R",
+    "r.rterm.linux": "/home/ats/.cargo/bin/arf",
     "r.libPaths": [
         "C:/Users/TsyplenkovA/AppData/Local/R/win-library/4.5",
         "/home/ats/R/x86_64-pc-linux-gnu-library/4.5"
@@ -61,10 +61,9 @@
     "remote.SSH.remotePlatform": {
         "hydrowiki": "linux"
     },
-    "agCockpit.displayMode": "quickpick",
     "agCockpit.groupingEnabled": false,
-    "agCockpit.dataMasked": false,
     "agCockpit.profileHidden": false,
     "python.languageServer": "Default",
     "workbench.colorTheme": "Pop Dark",
+    "r.bracketedPaste": true,
 }

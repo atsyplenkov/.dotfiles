@@ -1,20 +1,4 @@
----
-
-## Core Philosophy
-
-I use specialized agents and skills for complex tasks.
-
-**Key Principles:**
-1. **Agent-First**: Delegate to specialized agents for complex work
-2. **Parallel Execution**: Use Task tool with multiple agents when possible
-3. **Plan Before Execute**: Use Plan Mode for complex operations
-4. **Test-Driven**: Write tests before implementation
-5. **Security-First**: Never compromise on security
-
----
-Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
-
-**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
+# CLAUDE.md
 
 ## 1. Think Before Coding
 
@@ -72,7 +56,57 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
----
+## Agentic Execution
+
+**MAXIMIZE PARALLELISM** - This is the top priority.
+
+**Parallel by Default:**
+- ALWAYS launch multiple Task tool calls in single message when independent
+- NEVER wait for one agent to finish before starting another independent one
+- Default to parallelism for: file searches, research, analysis, reviews
+- Max 10 concurrent agents; Claude auto-queues excess in batches
+
+**Delegation (Proactive):**
+- Delegate exploration BEFORE making changes
+- Delegate code review AFTER changes (can parallel with tests)
+- Delegate debugging when errors occur
+- Don't wait to be asked - delegate when efficient
+
+**Model Routing:**
+- haiku: Fast ops - routing, lookups, file discovery
+- sonnet: Core work - implementation, review, testing
+- opus: Deep thinking - planning, architecture, synthesis
+
+When spawning sub-agents (e.g., search-specialist), always verify and enforce the specified model (e.g., Haiku) from the config. Do not default to Opus for sub-agents unless explicitly told to. When asked to fix a config issue, actually edit the file — don't just promise to fix it.
+
+## Documentation & Planning Files
+
+Always follow planning-with-files guidelines. Log activity to the designated plan/progress files at the start and end of every session. Never skip this even if the task seems small.
+
+**When planning files exist (task_plan.md, findings.md, progress.md):**
+- Treat them as LIVING DOCUMENTS, not archives
+- Update progress.md IMMEDIATELY after completing significant work
+- Update findings.md IMMEDIATELY when discovering new information
+- Update task_plan.md when phases complete or blockers resolve
+
+**During debugging/testing sessions:**
+- Log each fix in progress.md as it happens
+- Document actual API formats in findings.md as discovered
+- Don't wait to be asked - proactive documentation is required
+
+**Session continuity:**
+- If files exist, you're RESUMING a session, not starting fresh
+- Session numbers should increment
+- Link findings to the specific session that discovered them
+
+## Fast Tools
+
+Prefer these over standard tools:
+- `rg` over grep (faster, smarter ignores)
+- `fd` over find (faster, friendlier)
+- `sd` over sed (safer in-place edits)
+- `ast-grep` for structural code search/replace
+- `parallel` for concurrent bash operations
 
 ## Personal Preferences
 
@@ -86,12 +120,7 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - Conventional commits: `feat:`, `fix:`, `refactor:`, `docs:`, `test:`, `ci:`
 - Always test locally before committing
 - Small, focused commits, prefer oneliners
-- Never add yourself as co-author of the commit
+- NEVER add Claude as co-author of the commit
 
-### Testing
-- TDD: Write tests first
-- 80% minimum coverage
-
----
-
-**Philosophy**: Agent-first design, parallel execution, plan before action, test before code, security always.
+## Tool & Skill Usage
+When the user asks you to use a specific skill (e.g., /ask), use EXACTLY that skill — do not substitute with a different tool (e.g., don't use AskUserQuestion when /ask was requested). When a skill specifies selectable options, present them as defined.

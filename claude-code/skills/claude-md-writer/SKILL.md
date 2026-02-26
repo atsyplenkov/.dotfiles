@@ -1,9 +1,9 @@
 ---
 name: claude-md-writer
-description: Use when creating or refactoring CLAUDE.md files - enforces best practices for size, structure, and content organization
+description: Use when creating, refactoring or updating CLAUDE.md files - enforces best practices for size, structure, and content organization
 ---
 
-Creates and refactors CLAUDE.md files following official Anthropic best practices (2026).
+Creates, refactors and updates CLAUDE.md files following official Anthropic best practices (2026).
 
 ## Golden Rules
 

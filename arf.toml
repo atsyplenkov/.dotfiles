@@ -24,7 +24,7 @@ mode_indicator = "prefix"
 
 [prompt.indicators]
 reprex = "[reprex] "
-autoformat = true
+autoformat = "true"
 
 [prompt.status]
 override_prompt_color = false

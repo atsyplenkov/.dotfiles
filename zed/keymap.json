@@ -1,0 +1,64 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  // General editor keybindings (from VS Code)
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-d": "editor::DuplicateLineDown", // Duplicate selection
+      "ctrl-d": "editor::DeleteLine", // Delete line
+      "ctrl-shift-c": "editor::ToggleComments", // Toggle comment
+    },
+  },
+  // RStudio keybindings
+  // From https://github.com/ocsmit/zed-r and VS Code custom bindings
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-m": ["workspace::SendKeystrokes", "space |> space"],
+      "alt--": ["workspace::SendKeystrokes", "space < - space"],
+      "ctrl-shift-r": [
+        "workspace::SendKeystrokes",
+        "# section -----------------------------------------------------------\n",
+      ],
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-t": [
+        "task::Spawn",
+        { "task_name": "Run all R tests", "reveal_target": "center" },
+      ],
+      "ctrl-shift-b": [
+        "task::Spawn",
+        { "task_name": "Install local R package", "reveal_target": "center" },
+      ],
+      "ctrl-2": [
+        "task::Spawn",
+        { "task_name": "R Terminal", "reveal_target": "dock" },
+      ],
+      "ctrl-shift-e": [
+        "task::Spawn",
+        { "task_name": "Check local R package", "reveal_target": "center" },
+      ],
+    },
+  },
+]

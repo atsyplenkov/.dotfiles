@@ -25,6 +25,10 @@ depends = []
 "positron/settings.json" = "~/.config/Positron/User/settings.json"
 "positron/keybindings.json" = "~/.config/Positron/User/keybindings.json"
 
+# Zed
+"zed/settings.json" = "~/.config/zed/settings.json"
+"zed/keymap.json" = "~/.config/zed/keymap.json"
+
 # Arkenfox (Firefox hardenning)
 "firefox/user-overrides.js" = "~/.mozilla/firefox/023rvj2f.default-release/user-overrides.js"
 
